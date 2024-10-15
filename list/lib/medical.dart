@@ -250,7 +250,7 @@ class _SessionCardState extends State<SessionCard> {
                 child: Icon(Icons.play_arrow,color:widget.isDone? Colors.white:Color.fromARGB(255, 191, 160, 244),),
               ),
               SizedBox(width: 20,),
-              Text('Season ${widget.Name}',style: GoogleFonts.lato(textStyle:TextStyle(fontStyle: FontStyle.italic,fontSize: 25,fontWeight: FontWeight.w500)),),
+              Text('Season ${widget.Name}',style: GoogleFonts.lato(textStyle:TextStyle(fontStyle: FontStyle.italic,fontSize: 20,fontWeight: FontWeight.w500)),),
               
              ],
              

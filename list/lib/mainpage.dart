@@ -121,7 +121,7 @@ class _MyAppState extends State<MyApp> {
                      Expanded(
                        child: GridView.count(
                          crossAxisCount: 2,
-                         crossAxisSpacing: 25,
+                         crossAxisSpacing: 12,
                          mainAxisSpacing: 25,
                          children: [
                           customList('assets/diet.png', 'Diet', () {
